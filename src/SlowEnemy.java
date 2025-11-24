@@ -1,5 +1,3 @@
-package enemies;
-
 public class SlowEnemy extends Enemy {
 
     public SlowEnemy(int x, int y, int levelMultiplier) {

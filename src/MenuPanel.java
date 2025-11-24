@@ -1,8 +1,6 @@
-package main;
-
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
+import javax.swing.*;
 
 public class MenuPanel extends JPanel {
 

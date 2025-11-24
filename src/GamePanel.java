@@ -1,13 +1,10 @@
-package main;
 
-import objects.*;
-import enemies.*;
-
-import javax.swing.*;
 import java.awt.*;
 import java.awt.event.KeyEvent;
 import java.util.*;
 import java.util.List;
+import javax.swing.*;
+
 
 public class GamePanel extends JPanel implements Runnable {
 

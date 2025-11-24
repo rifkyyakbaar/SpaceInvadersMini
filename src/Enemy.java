@@ -1,9 +1,3 @@
-package enemies;
-
-import objects.GameObject;
-import interfaces.Movable;
-import interfaces.Destroyable;
-
 import java.awt.Color;
 import java.awt.Graphics;
 
