@@ -14,10 +14,10 @@ public class KoneksiDatabase {
         try {
             if (conn == null || conn.isClosed()) {
                 conn = DriverManager.getConnection(URL, USER, PASS);
-                System.out.println("✅ Koneksi MySQL Berhasil!");
+                System.out.println("Koneksi MySQL Berhasil!");
             }
         } catch (Exception e) {
-            System.out.println("❌ Koneksi Gagal: " + e.getMessage());
+            System.out.println("Koneksi Gagal: " + e.getMessage());
         }
     }
 

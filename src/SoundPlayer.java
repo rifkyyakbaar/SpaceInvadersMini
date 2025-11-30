@@ -11,7 +11,7 @@ public class SoundPlayer {
         try {
             // 1. CEK CERDAS: Apakah lagu yang diminta SAMA dengan yang sedang main?
             if (currentTrack != null && currentTrack.equals(filePath) && bgmClip != null && bgmClip.isRunning()) {
-                System.out.println("⏩ Lagu sama (" + filePath + "), lanjutkan...");
+                System.out.println("Lagu sama (" + filePath + "), lanjutkan...");
                 return; // JANGAN lakukan apa-apa, biarkan musik lanjut!
             }
 
@@ -38,9 +38,9 @@ public class SoundPlayer {
                 // 4. Simpan nama lagu ini ke ingatan
                 currentTrack = filePath; 
                 
-                System.out.println("🎵 Memutar Musik Baru: " + filePath);
+                System.out.println("Memutar Musik Baru: " + filePath);
             } else {
-                System.out.println("❌ File tidak ketemu: " + filePath);
+                System.out.println("File tidak ketemu: " + filePath);
             }
         } catch (Exception e) {
             e.printStackTrace();
